@@ -18,7 +18,6 @@
 .hearderset h1 {
     font-size: 80px;
     font-weight: bold;
-    margin-bottom: 15px;
 }
 
 
@@ -106,4 +105,52 @@
 
 .footer h6 {
     line-height: 50px;
+}
+
+
+/* Responsive Area */
+@media(min-width: 992px) {
+
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .hearderset h2 {
+        font-size: 42px;
+    }
+    
+    .hearderset h1 {
+        font-size: 62px;
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 575px) and (max-width: 767px) {
+    
+}
+
+@media(min-width: 480px) and (max-width: 574px) {
+    
+}
+
+@media(max-width: 479px) {
+    .hearderset h2 {
+        font-size: 22px;
+    }
+    
+    .hearderset h1 {
+        font-size: 42px;
+        font-weight: bold;
+    }
+
+    .services {
+        height: 1300px;
+    }
+
+    .portfolio {
+        height: 2700px;
+    }
+
+    .team {
+        height: 1400px;
+    }
 }
