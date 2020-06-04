@@ -57,3 +57,53 @@
     padding: 15px;
     color: #6c757d !important;
 }
+
+
+/* Portfolio Area */
+.portfolio {
+    height: 1250px;
+    width: 100%;
+    padding: 100px 0px 50px;
+}
+
+.portfolio h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card {
+    margin-top: 40px;
+}
+
+
+/* Team Area */
+.team {
+    height: 700px;
+    padding: 100px 0px 60px;
+    width: 100%;
+}
+
+.team h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.teamsetting {
+    margin-top: 50px !important;
+}
+
+.teamsetting h4 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+/* Footer Area */
+.footer {
+    height: 50px;
+}
+
+.footer h6 {
+    line-height: 50px;
+}
